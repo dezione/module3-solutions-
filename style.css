@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+    background-color: transparent; /* Make navbar transparent */
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0; /* Remove default margin */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    background-color:  #6c757d;
+}
+
+.navbar-toggle {
+    margin-top: 15px; /* Adjust the position of the toggle button */
+}
+
+/* Page Heading */
+h1.text-center {
+    margin-top: 50px; /* Add some space from the top */
+}
+
+/* Menu Section */
+.menu-section {
+    background-color: #6c757d;/* Light grey background */
+    padding: 50px 0; /* Add some padding */
+}
+
+.menu-section h3 {
+    text-align: center; /* Center section headings */
+}
+/* Page Heading */
+h1.text-center {
+    margin-top: 50px; /* Add some space from the top */
+    padding-left: 1px ;
+}
+
+/* Menu Section */
+.menu-section {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 50px 0; /* Add some padding */
+}
+
+.menu-section h3 {
+    text-align: center; /* Center section headings */
+}
+@media (max-width: 767px) {
+    /* Mobile specific styles */
+    .navbar-collapse.collapse {
+        display:block !important;
+    }
+
+    .navbar-nav {
+        display: block !important;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding-left: 1px ;
+        background-color: #6c757d; /* Light grey background */
+    }
+
+    .navbar-nav li {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: calc(50% - 20px);
+    }
+    .section:nth-child(3) {
+        width: calc(100% - 20px);
+    }
+    .section-title {
+        top: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: calc(100% - 20px);
+    }
+    .section-title {
+        top: 10px;
+        right: 10px;
+    }
+}
